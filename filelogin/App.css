@@ -1,0 +1,104 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Poppins', sans-serif !important;
+}
+
+.bgimg{
+ width: 100%;
+ height: 100vh;
+ background-image: #ffffff;
+}
+
+.centerdiv{
+ width: 550px;
+ height: 600px;
+ position: absolute;
+ padding-top: 50px;
+ top: 50%;
+ left: 50%;
+ background-color:#ffffff;
+ transform: translate(-50%, -50%);
+ box-shadow: 0 1px 6px rgb(0, 0, 0), 0 1px 4px rgb(0, 0, 0);
+}
+
+#profilepic{
+ border-radius: 100%;
+ position:left;
+ size: 50%;
+}
+
+#exampleCheck1{
+  text-align: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+h2{
+ text-align: center;
+ color: black;
+ text-transform: uppercase;
+ font-size: 2em;
+ word-spacing: 10px;
+ margin-bottom: 50px;
+}
+p,h4{
+  text-align: center;
+  color: #000;
+  font-size: medium;
+}
+
+small{
+  text-align: center;
+  font-size: small;
+}
+
+.inputbox{
+ width: calc(100% - 100px);
+ height: 50px;
+ display: block;
+ margin: auto;
+ padding: 0 10px;
+ box-sizing:inherit;
+}
+
+::placeholder{
+  color: rgba(0, 0, 0, 0.137);
+}
+
+ .button {
+  background-color: #61acb3;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.FORGOT-SECTION{
+ width: calc(100% - 5px);
+ line-height: 30px;
+ display: block;
+ margin: auto;
+ color: #000;
+ font-size: 1.5em;
+ text-align: right;
+ padding-right: 20px;
+}
+
+.adjustCenter
+{
+  justify-content: center;
+  text-align: center;
+}
+
+.btn-primary, .btn-lg{
+  background-color: #61acb3 !important;
+}
+a{
+  color: #61acb3 !important;
+}
